@@ -8,6 +8,8 @@ app.use(cors());
 app.use(express.json());
 
 
+
+// get all api item
 app.get('/', (req, res) =>{
     res.send('Boss is Running');
 })
